@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo-container{
+    width: 350px;
+    margin:0 auto;
+}
+.content-box{
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.search-box{
+    width:300px;
+}
+.help-links{
+    display: flex;
+    height: 74px;
+}
+.positioning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.special-searches{
+    background-color: #7EE5DA;
+    width: 36%;
+}
+.help{
+    background-color: #70CCC2;
+    width: 18%;
+    font-size: clamp(10px,14px,16px);
+}
+.subscription{
+    background-color: #62B3AA;
+    width: 46%;
+}
+.update-text{
+    font-size: 14px;
+}
+.archive-box{
+    display: flex;
+    gap: clamp(10px,15px,20px);
+}
+#your-email{
+    width: clamp(160px,44%,220px);
+}
+.copyright-text{
+    text-align: center;
+}
+@media(max-width:480px){
+    .help-links{
+        height: fit-content;
+    }
+}
